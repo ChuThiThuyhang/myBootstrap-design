@@ -1,0 +1,14 @@
+{
+  "name": "myBootstrap-design",
+  "homepage": "https://github.com/ChuThiThuyhang/myBootstrap-design",
+  "_release": "1250e869d3",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "1250e869d3c3b7adaf956c18dc02bb3950197aed"
+  },
+  "_source": "https://github.com/ChuThiThuyhang/myBootstrap-design.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/ChuThiThuyhang/myBootstrap-design.git",
+  "_direct": true
+}

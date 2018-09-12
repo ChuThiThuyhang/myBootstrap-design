@@ -1,0 +1,520 @@
+.panel-body {
+    padding: 0px!important;
+}
+
+.list-group {
+    margin-bottom: 0px!important;
+    padding-left: 0;
+}
+
+#divPlayListFooter {
+    background: rgba(255,255,255,0.5);
+    left: 0px;
+    position: absolute;
+    right: 0px;
+    z-index: 35;
+    bottom:0px;
+}
+#divViewItemDetail {
+    background: #000000 none repeat scroll 0 0;
+    height: 55%;
+    left: 20px;
+    position: absolute;
+    top: 60px;
+    width: 40%;
+    z-index: 1234;
+}
+
+#properties.panel-collapse.collapse.in {
+    overflow: hidden;
+    padding: 12px 0;
+}
+
+h4, .h4 {
+    font-size: 12px!important;
+}
+
+body {
+    overflow: hidden;
+}
+
+.navbar-offset {
+    margin-top: 50px;
+}
+
+#map {
+    position: absolute;
+    top: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+#map .ol-zoom {
+    font-size: 1.2em;
+}
+
+.zoom-top-opened-sidebar {
+    margin-top: 5px;
+}
+
+.zoom-top-collapsed {
+    margin-top: 45px;
+}
+
+.mini-submenu {
+    display: none;
+    background-color: rgba(255, 255, 255, 0.46);
+    border: 1px solid rgba(0, 0, 0, 0.9);
+    border-radius: 4px;
+    padding: 9px;
+    /*position: relative;*/
+    width: 42px;
+    text-align: center;
+}
+
+.mini-submenu-left {
+    position: absolute;
+    top: 60px;
+    left: .5em;
+    z-index: 40;
+}
+
+.mini-submenu-right {
+    position: absolute;
+    top: 60px;
+    right: .5em;
+    z-index: 40;
+}
+
+#map {
+    z-index: 35;
+}
+
+.sidebar {
+    z-index: 45;
+}
+
+.main-row {
+    position: relative;
+    top: 0;
+}
+
+.mini-submenu:hover {
+    cursor: pointer;
+}
+
+.slide-submenu {
+    background: rgba(0, 0, 0, 0.45);
+    display: inline-block;
+    padding: 0 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.x-quirks #images-view .thumb {
+    padding-bottom: 3px;
+}
+
+.thumb img {
+    /*height: 100%;*/
+    width: 100%;
+}
+
+.jcarousel .thumb img {
+    width: 100%;
+    max-height: 110px;
+}
+
+
+.thumb-wrap {
+    float: left;
+    margin: 4px;
+    margin-right: 0;
+    padding: 5px;
+}
+
+.thumb-wrap span {
+    display: block;
+    overflow: hidden;
+    /*text-align: center;*/
+    color: #FFFFFF;
+    /*width: 120px; /* for ie to ensure that the text is centered */
+    width: 100%;
+    height: 30px;
+}
+
+.x-item-over {
+    /*background: #efefef url(images/over.gif) repeat-x left top;*/
+}
+
+.x-item-selected {
+}
+
+.x-item-selected .thumb {
+    background: transparent;
+}
+
+.loading-indicator {
+    font-size: 11px;
+    background-image: url('../../resources/themes/images/default/grid/loading.gif');
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px;
+    margin: 10px;
+}
+
+.x-view-selector {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    border: 1px dotted;
+    opacity: .5;
+    -moz-opacity: .5;
+    filter: alpha(opacity=50);
+    zoom: 1;
+    background-color: #c3daf9;
+    border-color: #3399bb;
+}
+
+.ext-strict .ext-ie .x-tree .x-panel-bwrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.tab-layer {
+    background-image: url("images/tabs.gif") !important;
+}
+
+.fancybox-overlay {
+    z-index: 9999999 !important;
+}
+
+.x-panel-header-default-horizontal-noborder {
+    padding: 0 0 0 0 !important;
+}
+
+.x-panel-header-default-horizontal {
+    padding: 0 0 0 0 !important;
+}
+
+.thumb {
+    height: 100%;
+    width: 100%;
+    background: url(/WebMap/PlayList/css/images/noImage.jpg) !important;
+    position: relative;
+    text-align: left;
+}
+
+.thumb-wrap-image {
+    height: 120px;
+    width: 130px;
+    float: left;
+    margin: 4px 0 4px 4px;
+    padding: 5px 5px 0 5px;
+}
+
+.thumb-wrap-image > img {
+    height: 100%;
+    width: 100%;
+}
+
+.jcarousel li.thumb-wrap {
+    background-color: #f1f1f1;
+    margin-left: 5px;
+    margin-right: 5px;
+    max-height: 140px;
+    opacity: 1;
+    cursor: default;
+}
+
+.jcarousel li .x-editable {
+    text-align:center;
+    padding:3px 0;
+    color:#555;
+}
+
+/* Zoom controls CSS */
+div.olControlZoom a {
+    font-size: 18px;
+    height: 22px;
+    line-height: 19px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    width: 22px;
+}
+
+div.olControlZoom a, div.olControlTextButtonPanel .olButton {
+    -moz-text-decoration-color: -moz-use-text-color;
+    -moz-text-decoration-line: none;
+    -moz-text-decoration-style: solid;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 60, 136, 0.5);
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    color: #FFFFFF;
+    display: block;
+    font-family: 'Lucida Grande',Verdana,Geneva,Lucida,Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 1px;
+    text-align: center;
+}
+
+div.olControlZoom, div.olControlTextButtonPanel {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(255, 255, 255, 0.4);
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    left: 8px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    position: absolute;
+    top: 8px;
+}
+
+/*  */
+
+#divViewItemDetail {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #000000;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    width: 40%;
+    height: 55%;
+    /*opacity: 0.75;*/
+    position: absolute;
+    left: 20px;
+    top: 60px;
+    z-index: 1234;
+}
+
+.maxxiInfoApp.leftpanel {
+    left: 10px;
+    right: 0px;
+}
+
+
+/* Slide */
+
+.jcarousel, .jcarousel2 {
+    position: relative;
+    overflow: hidden;
+}
+
+.jcarousel {
+    cursor: move;
+}
+
+
+.jcarousel ul, .jcarousel2 ul {
+    width: 20000em;
+    position: relative;
+    /* Optional, required in this case since it's a <ul> element */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.jcarousel li, .jcarousel2 li {
+    /* Required only for block elements like <li>'s */
+    float: left;
+}
+
+
+.jcarousel2 li.thumb-wrap {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+
+.jcarousel2 .thumb img {
+    width: 100%;
+    height: 100%;
+}
+
+#prevControl2 {
+    left: 25px;
+}
+
+#nextControl2 {
+    right: 25px;
+}
+
+#prevControl {
+    left: 5px;
+}
+
+#nextControl {
+    right: 5px;
+}
+
+.infoDiv {
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 15px;
+    padding-top: 5px;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 20%;
+    color: #FFFFFF;
+    background: rgba(0,0,0,0.7);
+}
+
+.infoDiv:hover {
+    background: rgba(0,0,0,1);
+}
+
+
+.infoDiv * {
+    color: #FFFFFF;
+}
+
+.jcarousel li.active {
+    background: #00a74b;
+}
+.jcarousel li.active .x-editable {
+    color: #FFF;
+}
+.thumb .makerCount {
+    background: #555;
+    position: absolute;
+    display: inline-block;
+    padding: 3px 6px;
+    color: #FFF;
+    text-align:center;
+}
+
+.active .makerCount {
+    background: #FFFF00;
+    color:#555;
+}
+
+.playVideo {
+    width: 32px !important;
+    height: 32px !important;
+    position: absolute;
+    right: 0px;
+    /*background: rgba(0, 0, 0, 0.5);*/
+}
+
+.videoFrame {
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+}
+
+.toggleButton {
+    background: url("../images/toggle.png") no-repeat;
+    position: absolute;
+    width: 36px;
+    bottom: 20%;
+    height: 18px;
+    left: 0;
+}
+
+.toggleButton.active {
+    background: url("../images/toggle.png") 0 -20px no-repeat;
+}
+
+.toggleButton.upInfo {
+    background: url("../images/toggle.png") 0 -20px no-repeat;
+    position: absolute;
+    width: 36px;
+    bottom: 0% !important;
+    height: 18px;
+    left: 0;
+}
+.navbar-form .form-control {
+
+}
+.navbar-form a {
+    padding:9px 12px;
+    background:#00a74b;
+    border-radius:3px;
+    color:#fff;
+}
+.navbar-form a:hover {
+    background:#008a3e;
+    color:#fff;
+}
+.navbar-form button {
+    /*display:none;*/
+}
+.navbar-form .form-control {
+    width: 334px;
+}
+.navbar-header {
+    width:100%;
+
+}
+.jcarousel-control-prev, .jcarousel-control-next {background:#00a74b;border:2px solid #FFF; height:34px; width:34px;
+}
+.jcarousel-control-prev:hover, .jcarousel-control-next:hover {background:#008a3e;color:#FFF;
+}
+.jcarousel-control-prev:visited, .jcarousel-control-next:visited {background:#008a3e;color:#FFF;
+}
+
+.popover-content {
+    height: 300px;
+    width: 500px;
+    overflow-y: auto;
+}
+.popover{
+    max-width: 1000px;
+}
+.select-all{
+    padding:8px 0 23px 35px!important
+}
+.modal-backdrop.in {background-color:transparent!important}
+#ThumbnailCarousel img {
+
+}
+
+#ThumbnailCarousel div {
+    height:250px;
+    width:100%;
+}
+
+#ThumbnailCarousel.carousel {
+    padding-top:30px;
+    text-align:center;
+}
+
+.col-md-3 .img-thumbnail {
+    height:100%;
+}
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}

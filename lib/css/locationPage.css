@@ -1,0 +1,54 @@
+body{
+    overflow: auto;                                                                
+}
+ul{
+    left: 0px; 
+    top: 0px;
+}
+
+ul li{
+    height: 300px; 
+    width: 432px;
+}
+h4{
+    font-size: 16px!important;
+    font-weight: 100;
+}
+#map {
+    position: relative;
+    margin-top: -50px;
+    z-index: -1;
+}
+#show-location{
+    position: absolute;
+    z-index: 200 !important;
+    background: #fff;
+}
+#divContent{
+    width: 100%;
+}
+#divContent #container{
+    width:100%!important; 
+    padding-bottom:10px;
+}
+.relative {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    bottom: 0px;
+}
+.absolute {
+    position: absolute;
+    bottom: 0px;
+    top: 550px;
+    right: 0;
+    width: 100%;
+    height: 150px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.col-md-3 a{
+    font-size: 12px;
+    font-weight: 100;
+}
+
